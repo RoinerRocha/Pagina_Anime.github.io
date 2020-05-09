@@ -1,0 +1,25 @@
+/* header  {
+    background: pink;
+} */
+
+/* selector de etiqueta header-article-nav-section */
+/* selector descendente es un elemento hijo de algun otro elemento */
+/* body header div nav ol li a */
+/* selector de clase . */
+/* .+link */
+/* selector de id # */
+/* #portafolio */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+

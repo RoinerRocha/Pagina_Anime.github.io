@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Roiner Rocha</title>
+        <link rel="icon" type="imagenes/png" href="imagenes/Void.png" />
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet" />
+        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    </head>
+    <body>
+        <header class="header"> 
+            <div>
+                <figure class="logo">
+                    <img src="imagenes/Void.png" alt="https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/e/ec/Void_Gaminglogo_square.png/220px-Void_Gaminglogo_square.png?version=7b2930628513d06fe591df261df4765f" /> 
+                </figure>
+                <nav class="menu">
+                        <ol>
+                        <li>
+                        <a href="./portafolio/">Portafolio</a>
+                        </li>
+                        <li>
+                        <a href="#Creaciones">Experiencia</a>
+                        </li>
+                        <li>
+                        <a href="#Contacto">Trabajemos juntos</a>
+                        </li>
+                        </ol>
+                 </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <h1>
+                Hola! Soy <strong> Roiner Rocha </strong> <br/> Estudiante novato de <strong> programación</strong><br/> con pasion por la <strong>Musica y los videojuegos.</strong>
+            </h1>
+            <img src="imagenes/Layton.png" width="300" height="450" alt="imagen principal del sitio" /> 
+        </section>
+        <section id="portafolio" class="portafolio">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project">
+                    <h3 class="project-title">Proyecto 1</h3>
+                    <h6 class="project-course">Creación de blog</h6>
+                    <p class="project-date"><small><strong>Fecha </strong> 05/2/2020</small></p>
+                    <figure class="project-imageContainer"> 
+                        <img class="project-image" width="450" src="imagenes/anime.jpg" alt="Imagen sobre musica">
+                        <p>Capitulo 1</p>
+                        <a href="https://www.yourupload.com/watch/ey84g24E1sug" target="_blank">ver capitulo</a>
+                        <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="640"
+    height="264"
+    poster="MY_VIDEO_POSTER.jpg"
+    data-setup="{}"
+  >
+    <source src="Video.mp4" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.7.6/video.js"></script>
+                    </figure>
+                </article>
+        </section>
+        <section id="Creaciones">
+            <h2>Algo sobre mi corta experiencia</h2>
+            <article class="creations">
+                <figure class="creation-imageContainer">
+                    <img class="creation-image" src="imagenes/Phoenix.jpg" width="300" />
+                </figure>
+                <h3 class="creation-title">Pequeños proyectos que eh realizado</h3>
+                <p class="creation-descripcion">El video que cambiará tu vida por completo</p>
+                <a class="creation-url" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Ver un video</a>
+
+            </article>
+        </section>
+        <section id="Contacto" class="contact">
+            <form action="/suscripcion/" class="form-email">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="Déjame tu email">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <footer class="footer">footer</footer>
+    </body>
+</html>
